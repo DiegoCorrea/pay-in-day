@@ -41,7 +41,7 @@ module.exports = {
             test: /\.css$/,
             loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
         }, {
-            test: /\.woff|.woff2|.tff|.ttf|.eof|.eot|.svg*.*$/,
+            test: /\.woff|.woff2|.tff|.ttf|.eof|.eot|.jpg|.png|.svg*.*$/,
             loader: 'file'
         }]
     }
